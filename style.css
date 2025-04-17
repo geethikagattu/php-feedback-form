@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    padding: 20px; /* Adds space inside the div */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    width: 50%; /* Adjusts the width */
+    margin: auto; /* Centers the div */
+    text-align: center; /* Centers the text inside */
+}
+
+input,textarea{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+label {
+    width: 100px; /* Set a fixed width for labels */
+    text-align: center; /* Align text to the right */
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
